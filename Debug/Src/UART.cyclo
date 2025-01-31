@@ -1,0 +1,8 @@
+../Src/UART.c:11:17:Compute_UART_Baud	1
+../Src/UART.c:16:13:UART3_SetBaudRate	1
+../Src/UART.c:21:6:UART3_Init	1
+../Src/UART.c:44:6:UART3_TxChar	2
+../Src/UART.c:52:6:UART3_TxString	2
+../Src/UART.c:60:9:UART3_RxChar	2
+../Src/UART.c:66:5:_write	2
+../Src/UART.c:75:5:_read	3

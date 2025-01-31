@@ -1,4 +1,4 @@
-Src/main.o: ../Src/main.c ../Inc/UART.h \
+Src/UART.o: ../Src/UART.c ../Inc/UART.h \
  ..//Headers/CMSIS/Device/ST/STM32H5xx/Include/stm32h5xx.h \
  ..//Headers/CMSIS/Device/ST/STM32H5xx/Include/stm32h563xx.h \
  ..//Headers/CMSIS/Include/core_cm33.h \

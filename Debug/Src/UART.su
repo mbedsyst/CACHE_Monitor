@@ -1,0 +1,8 @@
+../Src/UART.c:11:17:Compute_UART_Baud	16	static
+../Src/UART.c:16:13:UART3_SetBaudRate	16	static
+../Src/UART.c:21:6:UART3_Init	8	static
+../Src/UART.c:44:6:UART3_TxChar	16	static
+../Src/UART.c:52:6:UART3_TxString	16	static
+../Src/UART.c:60:9:UART3_RxChar	4	static
+../Src/UART.c:66:5:_write	32	static
+../Src/UART.c:75:5:_read	40	static
