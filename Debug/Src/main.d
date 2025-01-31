@@ -6,7 +6,8 @@ Src/main.o: ../Src/main.c ../Inc/UART.h \
  ..//Headers/CMSIS/Include/cmsis_compiler.h \
  ..//Headers/CMSIS/Include/cmsis_gcc.h \
  ..//Headers/CMSIS/Include/mpu_armv8.h \
- ..//Headers/CMSIS/Device/ST/STM32H5xx/Include/system_stm32h5xx.h
+ ..//Headers/CMSIS/Device/ST/STM32H5xx/Include/system_stm32h5xx.h \
+ ../Inc/SYSTICK.h
 ../Inc/UART.h:
 ..//Headers/CMSIS/Device/ST/STM32H5xx/Include/stm32h5xx.h:
 ..//Headers/CMSIS/Device/ST/STM32H5xx/Include/stm32h563xx.h:
@@ -16,3 +17,4 @@ Src/main.o: ../Src/main.c ../Inc/UART.h \
 ..//Headers/CMSIS/Include/cmsis_gcc.h:
 ..//Headers/CMSIS/Include/mpu_armv8.h:
 ..//Headers/CMSIS/Device/ST/STM32H5xx/Include/system_stm32h5xx.h:
+../Inc/SYSTICK.h:

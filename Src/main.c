@@ -1,4 +1,5 @@
 #include "UART.h"
+#include "SYSTICK.h"
 #include <stdio.h>
 
 int main(void)
@@ -8,6 +9,6 @@ int main(void)
     while (1)
     {
     	printf("Hello World\n\r");
-    	for(int i = 0; i < 20000; i++);
+    	delay_ms(1000);
     }
 }
