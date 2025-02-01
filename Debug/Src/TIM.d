@@ -1,4 +1,4 @@
-Src/main.o: ../Src/main.c ../Inc/CACHE.h \
+Src/TIM.o: ../Src/TIM.c ../Inc/CACHE.h \
  ..//Headers/CMSIS/Device/ST/STM32H5xx/Include/stm32h5xx.h \
  ..//Headers/CMSIS/Device/ST/STM32H5xx/Include/stm32h563xx.h \
  ..//Headers/CMSIS/Include/core_cm33.h \
@@ -7,8 +7,7 @@ Src/main.o: ../Src/main.c ../Inc/CACHE.h \
  ..//Headers/CMSIS/Include/cmsis_gcc.h \
  ..//Headers/CMSIS/Include/mpu_armv8.h \
  ..//Headers/CMSIS/Device/ST/STM32H5xx/Include/system_stm32h5xx.h \
- ../Inc/TIM.h ..//Headers/CMSIS/Device/ST/STM32H5xx/Include/stm32h563xx.h \
- ../Inc/UART.h
+ ../Inc/TIM.h ..//Headers/CMSIS/Device/ST/STM32H5xx/Include/stm32h563xx.h
 ../Inc/CACHE.h:
 ..//Headers/CMSIS/Device/ST/STM32H5xx/Include/stm32h5xx.h:
 ..//Headers/CMSIS/Device/ST/STM32H5xx/Include/stm32h563xx.h:
@@ -20,4 +19,3 @@ Src/main.o: ../Src/main.c ../Inc/CACHE.h \
 ..//Headers/CMSIS/Device/ST/STM32H5xx/Include/system_stm32h5xx.h:
 ../Inc/TIM.h:
 ..//Headers/CMSIS/Device/ST/STM32H5xx/Include/stm32h563xx.h:
-../Inc/UART.h:

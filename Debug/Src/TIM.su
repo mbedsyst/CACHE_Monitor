@@ -1,0 +1,4 @@
+..//Headers/CMSIS/Include/core_cm33.h:2390:22:__NVIC_EnableIRQ	16	static,ignoring_inline_asm
+..//Headers/CMSIS/Include/core_cm33.h:2587:22:__NVIC_SetPriority	16	static
+../Src/TIM.c:7:6:TIM2_Init	8	static
+../Src/TIM.c:28:6:TIM2_IRQHandler	8	static

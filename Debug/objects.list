@@ -1,6 +1,6 @@
-"./Src/DCACHE.o"
-"./Src/ICACHE.o"
+"./Src/CACHE.o"
 "./Src/SYSTICK.o"
+"./Src/TIM.o"
 "./Src/UART.o"
 "./Src/main.o"
 "./Src/syscalls.o"
