@@ -5,4 +5,4 @@
 
 void TIM2_Init(void);
 
-#endif // TIM_H
+#endif

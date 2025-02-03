@@ -1,0 +1,5 @@
+../Src/CACHE.c:4:13:ICACHE_Init	2
+../Src/CACHE.c:19:6:CACHE_Init	1
+../Src/CACHE.c:24:13:CACHE_ClearMonitor	1
+../Src/CACHE.c:29:13:CACHE_PrintBanner	1
+../Src/CACHE.c:40:6:CACHE_UpdateMonitor	1

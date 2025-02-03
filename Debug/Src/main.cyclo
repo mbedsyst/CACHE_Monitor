@@ -1,7 +1,1 @@
-../Src/main.c:22:6:run_icache_intensive_task	2
-../Src/main.c:32:6:func1	1
-../Src/main.c:33:6:func2	1
-../Src/main.c:34:6:func3	1
-../Src/main.c:35:6:func4	1
-../Src/main.c:36:6:func5	1
-../Src/main.c:38:5:main	1
+../Src/main.c:8:5:main	1
