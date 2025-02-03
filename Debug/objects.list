@@ -1,3 +1,4 @@
+"./Src/APP.o"
 "./Src/CACHE.o"
 "./Src/SYSTICK.o"
 "./Src/TIM.o"

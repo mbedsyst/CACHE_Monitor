@@ -5,6 +5,7 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
+../Src/APP.c \
 ../Src/CACHE.c \
 ../Src/SYSTICK.c \
 ../Src/TIM.c \
@@ -14,6 +15,7 @@ C_SRCS += \
 ../Src/sysmem.c 
 
 OBJS += \
+./Src/APP.o \
 ./Src/CACHE.o \
 ./Src/SYSTICK.o \
 ./Src/TIM.o \
@@ -23,6 +25,7 @@ OBJS += \
 ./Src/sysmem.o 
 
 C_DEPS += \
+./Src/APP.d \
 ./Src/CACHE.d \
 ./Src/SYSTICK.d \
 ./Src/TIM.d \
@@ -39,7 +42,7 @@ Src/%.o Src/%.su Src/%.cyclo: ../Src/%.c Src/subdir.mk
 clean: clean-Src
 
 clean-Src:
-	-$(RM) ./Src/CACHE.cyclo ./Src/CACHE.d ./Src/CACHE.o ./Src/CACHE.su ./Src/SYSTICK.cyclo ./Src/SYSTICK.d ./Src/SYSTICK.o ./Src/SYSTICK.su ./Src/TIM.cyclo ./Src/TIM.d ./Src/TIM.o ./Src/TIM.su ./Src/UART.cyclo ./Src/UART.d ./Src/UART.o ./Src/UART.su ./Src/main.cyclo ./Src/main.d ./Src/main.o ./Src/main.su ./Src/syscalls.cyclo ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.cyclo ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su
+	-$(RM) ./Src/APP.cyclo ./Src/APP.d ./Src/APP.o ./Src/APP.su ./Src/CACHE.cyclo ./Src/CACHE.d ./Src/CACHE.o ./Src/CACHE.su ./Src/SYSTICK.cyclo ./Src/SYSTICK.d ./Src/SYSTICK.o ./Src/SYSTICK.su ./Src/TIM.cyclo ./Src/TIM.d ./Src/TIM.o ./Src/TIM.su ./Src/UART.cyclo ./Src/UART.d ./Src/UART.o ./Src/UART.su ./Src/main.cyclo ./Src/main.d ./Src/main.o ./Src/main.su ./Src/syscalls.cyclo ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.cyclo ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su
 
 .PHONY: clean-Src
 

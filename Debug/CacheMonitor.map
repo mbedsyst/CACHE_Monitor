@@ -81,6 +81,41 @@ Discarded input sections
  .ARM.exidx     0x00000000       0x10 C:/ST/STM32CubeIDE_1.11.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/crt0.o
  .ARM.attributes
                 0x00000000       0x24 C:/ST/STM32CubeIDE_1.11.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/crt0.o
+ .group         0x00000000        0xc ./Src/APP.o
+ .group         0x00000000        0xc ./Src/APP.o
+ .group         0x00000000        0xc ./Src/APP.o
+ .group         0x00000000        0xc ./Src/APP.o
+ .group         0x00000000        0xc ./Src/APP.o
+ .group         0x00000000        0xc ./Src/APP.o
+ .group         0x00000000        0xc ./Src/APP.o
+ .group         0x00000000        0xc ./Src/APP.o
+ .text          0x00000000        0x0 ./Src/APP.o
+ .data          0x00000000        0x0 ./Src/APP.o
+ .bss           0x00000000        0x0 ./Src/APP.o
+ .bss.data      0x00000000     0x2000 ./Src/APP.o
+ .text.ExhaustCache
+                0x00000000       0x58 ./Src/APP.o
+ .debug_info    0x00000000      0x106 ./Src/APP.o
+ .debug_abbrev  0x00000000       0xa4 ./Src/APP.o
+ .debug_aranges
+                0x00000000       0x20 ./Src/APP.o
+ .debug_rnglists
+                0x00000000       0x13 ./Src/APP.o
+ .debug_macro   0x00000000       0x72 ./Src/APP.o
+ .debug_macro   0x00000000      0xacc ./Src/APP.o
+ .debug_macro   0x00000000       0x22 ./Src/APP.o
+ .debug_macro   0x00000000       0x8e ./Src/APP.o
+ .debug_macro   0x00000000       0x51 ./Src/APP.o
+ .debug_macro   0x00000000      0x103 ./Src/APP.o
+ .debug_macro   0x00000000       0x6a ./Src/APP.o
+ .debug_macro   0x00000000      0x1df ./Src/APP.o
+ .debug_macro   0x00000000       0x16 ./Src/APP.o
+ .debug_line    0x00000000      0x459 ./Src/APP.o
+ .debug_str     0x00000000     0x3df4 ./Src/APP.o
+ .comment       0x00000000       0x44 ./Src/APP.o
+ .debug_frame   0x00000000       0x38 ./Src/APP.o
+ .ARM.attributes
+                0x00000000       0x3a ./Src/APP.o
  .group         0x00000000        0xc ./Src/CACHE.o
  .group         0x00000000        0xc ./Src/CACHE.o
  .group         0x00000000        0xc ./Src/CACHE.o
@@ -121,6 +156,11 @@ Discarded input sections
  .text          0x00000000        0x0 ./Src/CACHE.o
  .data          0x00000000        0x0 ./Src/CACHE.o
  .bss           0x00000000        0x0 ./Src/CACHE.o
+ .debug_macro   0x00000000      0xacc ./Src/CACHE.o
+ .debug_macro   0x00000000       0x22 ./Src/CACHE.o
+ .debug_macro   0x00000000      0x103 ./Src/CACHE.o
+ .debug_macro   0x00000000       0x6a ./Src/CACHE.o
+ .debug_macro   0x00000000      0x1df ./Src/CACHE.o
  .group         0x00000000        0xc ./Src/SYSTICK.o
  .group         0x00000000        0xc ./Src/SYSTICK.o
  .group         0x00000000        0xc ./Src/SYSTICK.o
@@ -322,6 +362,8 @@ Discarded input sections
                 0x00000000       0x2a ./Src/UART.o
  .debug_macro   0x00000000      0xacc ./Src/UART.o
  .debug_macro   0x00000000       0x22 ./Src/UART.o
+ .debug_macro   0x00000000       0x8e ./Src/UART.o
+ .debug_macro   0x00000000       0x51 ./Src/UART.o
  .debug_macro   0x00000000      0x103 ./Src/UART.o
  .debug_macro   0x00000000       0x6a ./Src/UART.o
  .debug_macro   0x00000000      0x1df ./Src/UART.o
@@ -765,6 +807,7 @@ Linker script and memory map
 LOAD C:/ST/STM32CubeIDE_1.11.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v8-m.main+fp/hard/crti.o
 LOAD C:/ST/STM32CubeIDE_1.11.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v8-m.main+fp/hard/crtbegin.o
 LOAD C:/ST/STM32CubeIDE_1.11.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/crt0.o
+LOAD ./Src/APP.o
 LOAD ./Src/CACHE.o
 LOAD ./Src/SYSTICK.o
 LOAD ./Src/TIM.o
@@ -1393,77 +1436,70 @@ LOAD C:/ST/STM32CubeIDE_1.11.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_rnglists
                 0x0000012d       0x19 ./Startup/startup_stm32h563zitx.o
 
-.debug_macro    0x00000000    0x25d38
+.debug_macro    0x00000000    0x24e1f
  .debug_macro   0x00000000      0x1bb ./Src/CACHE.o
- .debug_macro   0x000001bb      0xacc ./Src/CACHE.o
- .debug_macro   0x00000c87       0x22 ./Src/CACHE.o
- .debug_macro   0x00000ca9       0x5b ./Src/CACHE.o
- .debug_macro   0x00000d04       0x2a ./Src/CACHE.o
- .debug_macro   0x00000d2e       0x94 ./Src/CACHE.o
- .debug_macro   0x00000dc2       0x43 ./Src/CACHE.o
- .debug_macro   0x00000e05       0x34 ./Src/CACHE.o
- .debug_macro   0x00000e39      0x189 ./Src/CACHE.o
- .debug_macro   0x00000fc2       0x16 ./Src/CACHE.o
- .debug_macro   0x00000fd8       0x43 ./Src/CACHE.o
- .debug_macro   0x0000101b       0x57 ./Src/CACHE.o
- .debug_macro   0x00001072       0x34 ./Src/CACHE.o
- .debug_macro   0x000010a6       0x10 ./Src/CACHE.o
- .debug_macro   0x000010b6       0x58 ./Src/CACHE.o
- .debug_macro   0x0000110e       0x8e ./Src/CACHE.o
- .debug_macro   0x0000119c       0x1c ./Src/CACHE.o
- .debug_macro   0x000011b8      0x177 ./Src/CACHE.o
- .debug_macro   0x0000132f      0x369 ./Src/CACHE.o
- .debug_macro   0x00001698      0x19b ./Src/CACHE.o
- .debug_macro   0x00001833       0x22 ./Src/CACHE.o
- .debug_macro   0x00001855       0x49 ./Src/CACHE.o
- .debug_macro   0x0000189e      0x103 ./Src/CACHE.o
- .debug_macro   0x000019a1       0x6a ./Src/CACHE.o
- .debug_macro   0x00001a0b      0x1df ./Src/CACHE.o
- .debug_macro   0x00001bea       0x1c ./Src/CACHE.o
- .debug_macro   0x00001c06       0x29 ./Src/CACHE.o
- .debug_macro   0x00001c2f       0xfb ./Src/CACHE.o
- .debug_macro   0x00001d2a     0x1685 ./Src/CACHE.o
- .debug_macro   0x000033af       0x5e ./Src/CACHE.o
- .debug_macro   0x0000340d    0x211d5 ./Src/CACHE.o
- .debug_macro   0x000245e2       0x6d ./Src/CACHE.o
- .debug_macro   0x0002464f       0x1c ./Src/CACHE.o
- .debug_macro   0x0002466b       0x35 ./Src/CACHE.o
- .debug_macro   0x000246a0       0x10 ./Src/CACHE.o
- .debug_macro   0x000246b0       0x1c ./Src/CACHE.o
- .debug_macro   0x000246cc       0x16 ./Src/CACHE.o
- .debug_macro   0x000246e2      0x146 ./Src/CACHE.o
- .debug_macro   0x00024828      0x1cf ./Src/TIM.o
- .debug_macro   0x000249f7      0x19f ./Src/UART.o
- .debug_macro   0x00024b96       0x8e ./Src/UART.o
- .debug_macro   0x00024c24       0x51 ./Src/UART.o
- .debug_macro   0x00024c75       0x61 ./Src/UART.o
- .debug_macro   0x00024cd6      0x1d3 ./Src/main.o
- .debug_macro   0x00024ea9      0x274 ./Src/syscalls.o
- .debug_macro   0x0002511d       0x10 ./Src/syscalls.o
- .debug_macro   0x0002512d       0x10 ./Src/syscalls.o
- .debug_macro   0x0002513d       0x10 ./Src/syscalls.o
- .debug_macro   0x0002514d       0x10 ./Src/syscalls.o
- .debug_macro   0x0002515d       0x1c ./Src/syscalls.o
- .debug_macro   0x00025179       0x52 ./Src/syscalls.o
- .debug_macro   0x000251cb       0x22 ./Src/syscalls.o
- .debug_macro   0x000251ed       0x10 ./Src/syscalls.o
- .debug_macro   0x000251fd       0x52 ./Src/syscalls.o
- .debug_macro   0x0002524f       0xcf ./Src/syscalls.o
- .debug_macro   0x0002531e       0x1c ./Src/syscalls.o
- .debug_macro   0x0002533a       0x3d ./Src/syscalls.o
- .debug_macro   0x00025377       0x35 ./Src/syscalls.o
- .debug_macro   0x000253ac      0x12c ./Src/syscalls.o
- .debug_macro   0x000254d8       0x16 ./Src/syscalls.o
- .debug_macro   0x000254ee       0x16 ./Src/syscalls.o
- .debug_macro   0x00025504       0x29 ./Src/syscalls.o
- .debug_macro   0x0002552d       0x10 ./Src/syscalls.o
- .debug_macro   0x0002553d      0x242 ./Src/syscalls.o
- .debug_macro   0x0002577f       0x10 ./Src/syscalls.o
- .debug_macro   0x0002578f      0x18a ./Src/syscalls.o
- .debug_macro   0x00025919       0x16 ./Src/syscalls.o
- .debug_macro   0x0002592f       0xce ./Src/syscalls.o
- .debug_macro   0x000259fd       0xff ./Src/sysmem.o
- .debug_macro   0x00025afc      0x23c ./Src/sysmem.o
+ .debug_macro   0x000001bb       0x5b ./Src/CACHE.o
+ .debug_macro   0x00000216       0x2a ./Src/CACHE.o
+ .debug_macro   0x00000240       0x94 ./Src/CACHE.o
+ .debug_macro   0x000002d4       0x43 ./Src/CACHE.o
+ .debug_macro   0x00000317       0x34 ./Src/CACHE.o
+ .debug_macro   0x0000034b      0x189 ./Src/CACHE.o
+ .debug_macro   0x000004d4       0x16 ./Src/CACHE.o
+ .debug_macro   0x000004ea       0x43 ./Src/CACHE.o
+ .debug_macro   0x0000052d       0x57 ./Src/CACHE.o
+ .debug_macro   0x00000584       0x34 ./Src/CACHE.o
+ .debug_macro   0x000005b8       0x10 ./Src/CACHE.o
+ .debug_macro   0x000005c8       0x58 ./Src/CACHE.o
+ .debug_macro   0x00000620       0x8e ./Src/CACHE.o
+ .debug_macro   0x000006ae       0x1c ./Src/CACHE.o
+ .debug_macro   0x000006ca      0x177 ./Src/CACHE.o
+ .debug_macro   0x00000841      0x369 ./Src/CACHE.o
+ .debug_macro   0x00000baa      0x19b ./Src/CACHE.o
+ .debug_macro   0x00000d45       0x22 ./Src/CACHE.o
+ .debug_macro   0x00000d67       0x49 ./Src/CACHE.o
+ .debug_macro   0x00000db0       0x1c ./Src/CACHE.o
+ .debug_macro   0x00000dcc       0x29 ./Src/CACHE.o
+ .debug_macro   0x00000df5       0xfb ./Src/CACHE.o
+ .debug_macro   0x00000ef0     0x1685 ./Src/CACHE.o
+ .debug_macro   0x00002575       0x5e ./Src/CACHE.o
+ .debug_macro   0x000025d3    0x211d5 ./Src/CACHE.o
+ .debug_macro   0x000237a8       0x6d ./Src/CACHE.o
+ .debug_macro   0x00023815       0x1c ./Src/CACHE.o
+ .debug_macro   0x00023831       0x35 ./Src/CACHE.o
+ .debug_macro   0x00023866       0x10 ./Src/CACHE.o
+ .debug_macro   0x00023876       0x1c ./Src/CACHE.o
+ .debug_macro   0x00023892       0x16 ./Src/CACHE.o
+ .debug_macro   0x000238a8      0x146 ./Src/CACHE.o
+ .debug_macro   0x000239ee      0x1cf ./Src/TIM.o
+ .debug_macro   0x00023bbd      0x19f ./Src/UART.o
+ .debug_macro   0x00023d5c       0x61 ./Src/UART.o
+ .debug_macro   0x00023dbd      0x1d3 ./Src/main.o
+ .debug_macro   0x00023f90      0x274 ./Src/syscalls.o
+ .debug_macro   0x00024204       0x10 ./Src/syscalls.o
+ .debug_macro   0x00024214       0x10 ./Src/syscalls.o
+ .debug_macro   0x00024224       0x10 ./Src/syscalls.o
+ .debug_macro   0x00024234       0x10 ./Src/syscalls.o
+ .debug_macro   0x00024244       0x1c ./Src/syscalls.o
+ .debug_macro   0x00024260       0x52 ./Src/syscalls.o
+ .debug_macro   0x000242b2       0x22 ./Src/syscalls.o
+ .debug_macro   0x000242d4       0x10 ./Src/syscalls.o
+ .debug_macro   0x000242e4       0x52 ./Src/syscalls.o
+ .debug_macro   0x00024336       0xcf ./Src/syscalls.o
+ .debug_macro   0x00024405       0x1c ./Src/syscalls.o
+ .debug_macro   0x00024421       0x3d ./Src/syscalls.o
+ .debug_macro   0x0002445e       0x35 ./Src/syscalls.o
+ .debug_macro   0x00024493      0x12c ./Src/syscalls.o
+ .debug_macro   0x000245bf       0x16 ./Src/syscalls.o
+ .debug_macro   0x000245d5       0x16 ./Src/syscalls.o
+ .debug_macro   0x000245eb       0x29 ./Src/syscalls.o
+ .debug_macro   0x00024614       0x10 ./Src/syscalls.o
+ .debug_macro   0x00024624      0x242 ./Src/syscalls.o
+ .debug_macro   0x00024866       0x10 ./Src/syscalls.o
+ .debug_macro   0x00024876      0x18a ./Src/syscalls.o
+ .debug_macro   0x00024a00       0x16 ./Src/syscalls.o
+ .debug_macro   0x00024a16       0xce ./Src/syscalls.o
+ .debug_macro   0x00024ae4       0xff ./Src/sysmem.o
+ .debug_macro   0x00024be3      0x23c ./Src/sysmem.o
 
 .debug_line     0x00000000     0x2a91
  .debug_line    0x00000000      0x6f5 ./Src/CACHE.o
